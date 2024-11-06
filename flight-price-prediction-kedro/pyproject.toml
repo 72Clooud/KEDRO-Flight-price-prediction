@@ -32,3 +32,6 @@ attr = "flight_price_prediction_kedro.__version__"
 [tool.setuptools.packages.find]
 where = [ "src",]
 namespaces = false
+
+[tool.kedro_telemetry]
+project_id = "0bdcb956763a495498115257b6cf4468"

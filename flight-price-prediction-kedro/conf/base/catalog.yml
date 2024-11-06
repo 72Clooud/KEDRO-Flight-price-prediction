@@ -1,0 +1,11 @@
+business:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/business.csv
+
+economy:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/economy.csv
+
+preprocessed_flights:
+  type: kedro_datasets.pandas.ParquetDataset
+  filepath: data/02_intermediate/preprocessed_flights.parquet
