@@ -11,7 +11,7 @@ def create_pipeline(**kwargs) -> Pipeline:
         [
             node(
                 func=preprocess_data,
-                inputs=["business", "economy"],
+                inputs="Clean_Dataset",
                 outputs="preprocessed_flights",
                 name="preprocessed_flights_node",
             )

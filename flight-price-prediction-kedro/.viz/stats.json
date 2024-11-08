@@ -1,1 +1,1 @@
-{"business": {"rows": 93487, "columns": 11, "file_size": 9868748}, "economy": {"rows": 206774, "columns": 11, "file_size": 21096149}, "preprocessed_flights": {"rows": 300261, "columns": 11, "file_size": 1307427}}
+{"Clean_Dataset": {"rows": 300153, "columns": 12, "file_size": 24683279}, "preprocessed_flights": {"rows": 300045, "columns": 38, "file_size": 2741058}}

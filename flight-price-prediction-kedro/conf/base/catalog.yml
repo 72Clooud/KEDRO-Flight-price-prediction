@@ -1,10 +1,6 @@
-business:
+Clean_Dataset:
   type: pandas.CSVDataset
-  filepath: data/01_raw/business.csv
-
-economy:
-  type: pandas.CSVDataset
-  filepath: data/01_raw/economy.csv
+  filepath: data/01_raw/Clean_Dataset.csv
 
 preprocessed_flights:
   type: kedro_datasets.pandas.ParquetDataset
