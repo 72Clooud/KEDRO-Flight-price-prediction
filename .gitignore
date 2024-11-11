@@ -1,0 +1,6 @@
+/flight-price-prediction-kedro/data
+/flight-price-prediction-kedro/docs
+/flight-price-prediction-kedro/session_store.db
+/flight-price-prediction-kedro/info.log
+/flight-price-prediction-kedro/conf/local
+.venv

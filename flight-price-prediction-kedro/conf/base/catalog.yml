@@ -5,3 +5,8 @@ Clean_Dataset:
 preprocessed_flights:
   type: kedro_datasets.pandas.ParquetDataset
   filepath: data/02_intermediate/preprocessed_flights.parquet
+
+model:
+  type: kedro_datasets.pickle.PickleDataset
+  filepath: data/06_models/model.pkt
+  versioned: true 

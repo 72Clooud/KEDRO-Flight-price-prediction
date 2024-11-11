@@ -1,1 +1,1 @@
-{"Clean_Dataset": {"rows": 300153, "columns": 12, "file_size": 24683279}, "preprocessed_flights": {"rows": 300045, "columns": 38, "file_size": 2741058}}
+{"preprocessed_flights": {"rows": 300045, "columns": 38, "file_size": 2741058}, "X_train": {"rows": 240036, "columns": 37}, "X_test": {"rows": 60009, "columns": 37}}
