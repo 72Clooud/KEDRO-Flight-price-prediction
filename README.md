@@ -1,5 +1,6 @@
 # Flight-price-prediction
 This project is a machine learning pipeline for predicting flight prices using the Kedro framework. It processes a dataset of flight prices, builds and trains models to estimate ticket prices based on features such as departure and arrival times, airline, and duration. The pipeline structure helps organize data engineering, model training, and evaluation in a reproducible way.
+![462569126_908850787510174_7506866872396437559_n](https://github.com/user-attachments/assets/a795c848-aa15-4c6c-acdd-8c1eb0304889)
 # Dataset
 The project uses the Flight Price Prediction Dataset from Kaggle, which includes data on various flight characteristics:
 ## Columns:
@@ -10,7 +11,7 @@ The project uses the Flight Price Prediction Dataset from Kaggle, which includes
 - Flight Duration
 - Number of Stops
 - Price (target variable)
-https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data
+- https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data
 # Technologies Used
 - Kedro: A Python framework that simplifies the process of building robust, modular, and reproducible data science pipelines.
 - Pandas: Essential library for data manipulation and analysis, used here for cleaning, transforming, and preparing flight data.
@@ -19,19 +20,19 @@ https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data
 - Matplotlib and Seaborn: Visualization libraries used for exploring and visualizing data patterns and model performance metrics.
 - Jupyter Notebook: An interactive environment for conducting exploratory data analysis (EDA) and prototyping machine learning models
 # Setup
-'''bash
+```bash
 git clone https://github.com/72Clooud/KEDRO-Flight-price-prediction.git
 cd KEDRO-Flight-price-prediction
-'''
-'''bash
+```
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-'''
-'''bash
+```
+```bash
 pip install -r src/requirements.txt
-'''
-'''bash
+```
+```bash
 kedro run
-'''
+```
 
 
